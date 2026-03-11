@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio-fanilo</title>
@@ -32,7 +33,33 @@
     </section>
 
     <footer>
-        <p>©️Fanilo Christien R.</p>
+        <footer class="footer">
+
+<h3>Suivez-moi</h3>
+
+<div class="social-icons">
+
+<a href="https://facebook.com/toncompte" target="_blank">
+<i class="fa-brands fa-facebook"></i>
+</a>
+
+<a href="https://wa.me/+2613822456554" target="_blank">
+<i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<a href="fanilochristien@gmail.com">
+<i class="fa-solid fa-envelope"></i>
+</a>
+
+<a href="https://github.com/fanilochristien-beep" target="_blank">
+<i class="fa-brands fa-github"></i>
+</a>
+
+</div>
+
+<p>© 2026 Fanilo.dev - Tous droits réservés</p>
+
+</footer>
     </footer>
 
     <style>
@@ -137,9 +164,28 @@
         }
 
         footer{
-            text-align: center;
-            padding: 20px;
-            background: #0f2027;
+            .footer{
+background:#111;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+.social-icons{
+margin:20px;
+}
+
+.social-icons a{
+color:white;
+font-size:28px;
+margin:10px;
+transition:0.3s;
+}
+
+.social-icons a:hover{
+color:#00ffcc;
+transform:scale(1.2);
+}
         }
 
         @keyframes fadeDown{
